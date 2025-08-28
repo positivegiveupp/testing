@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>聯盟行銷網站</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 1rem;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      color: #ddd;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 2rem 0;
+      background: #fff;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .product-card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .product-card a:hover {
+      background: #555;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>歡迎來到聯盟行銷平台</h1>
+    <p>探索最佳產品與優惠</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">首頁</a></li>
+      <li><a href="#about">關於我們</a></li>
+      <li><a href="#products">產品推薦</a></li>
+      <li><a href="#contact">聯繫我們</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section id="home" class="hero">
+      <h2>發現您喜愛的產品</h2>
+      <p>我們為您精選高品質的產品與服務，點擊下方探索更多！</p>
+    </section>
+
+    <section id="about">
+      <h2>關於我們</h2>
+      <p>我們致力於為您提供最佳的聯盟行銷體驗，幫助您找到值得信賴的產品與優惠。</p>
+    </section>
+
+    <section id="products">
+      <h2>產品推薦</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250x150" alt="產品1">
+          <h3>產品一</h3>
+          <p>這是一款很棒的產品，適合您的需求。</p>
+          <a href="#">查看優惠</a>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250x150" alt="產品2">
+          <h3>產品二</h3>
+          <p>高品質的選擇，立即體驗不一樣的感覺。</p>
+          <a href="#">查看優惠</a>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250x150" alt="產品3">
+          <h3>產品三</h3>
+          <p>不容錯過的優惠，現在就點擊了解！</p>
+          <a href="#">查看優惠</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>聯繫我們</h2>
+      <p>有任何問題？請通過以下方式聯繫我們：<br>
+      電子郵件：example@email.com | 電話：(123) 456-7890</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 聯盟行銷平台. 保留所有權利。</p>
+  </footer>
+</body>
+</html>
